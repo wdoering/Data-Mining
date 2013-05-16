@@ -1,0 +1,64 @@
+> source("HelloWorld.R")
+> myFunction()
+$statistic
+       t 
+2.800874 
+
+> source("HelloWorld.R")
+> myFunction()
+[1] 9
+> source("HelloWorld.R")
+> myFunction()
+named list()
+> source("HelloWorld.R")
+> myFunction()
+$statistic
+        t 
+-1.349842 
+
+> source("HelloWorld.R")
+> myFunction()
+$parameter
+      df 
+282.3014 
+
+> source("HelloWorld.R")
+> myFunction()
+$p.value
+[1] 0.1781481
+
+> source("HelloWorld.R")
+> myFunction()
+$conf.int
+[1] -0.034754736  0.006478704
+attr(,"conf.level")
+[1] 0.95
+
+> source("HelloWorld.R")
+> myFunction()
+$estimate
+mean of x mean of y 
+0.4190889 0.4332269 
+
+> source("HelloWorld.R")
+> myFunction()
+$null.value
+difference in means 
+                  0 
+
+> source("HelloWorld.R")
+> myFunction()
+$alternative
+[1] "two.sided"
+
+> source("HelloWorld.R")
+> myFunction()
+$method
+[1] "Welch Two Sample t-test"
+
+> source("HelloWorld.R")
+> myFunction()
+$data.name
+[1] "subsetCSC[i] and subsetCMC[i]"
+
+> 
